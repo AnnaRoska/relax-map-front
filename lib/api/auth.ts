@@ -1,8 +1,7 @@
 
 
-// lib/api/auth.ts
-
-import axios from "axios";
+import { nextServer } from "./api";
+import { User } from "@/types/types";
 
 
 const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`;

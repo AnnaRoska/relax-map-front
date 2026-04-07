@@ -11,7 +11,7 @@ export default function Header() {
   const { isAuthenticated, user} = useAuth();
   const [isOpen, setIsOpen] = useState(false);
   const [showModal, setShowModal] = useState(false);
-//console.log("Header user:", user);
+console.log("Header user:", user);
   return (
     <header className={styles.header}>
       <div className={styles.container}>
